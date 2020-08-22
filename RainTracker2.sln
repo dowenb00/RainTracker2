@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RainTracker2.Android", "RainTracker2\RainTracker2.Android\RainTracker2.Android.csproj", "{F06BB1A7-19CB-447C-9A3B-C3361CC666E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RainTracker2", "RainTracker2\RainTracker2\RainTracker2.csproj", "{21F8D831-0A0A-427A-9196-D880E529A10B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F06BB1A7-19CB-447C-9A3B-C3361CC666E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F06BB1A7-19CB-447C-9A3B-C3361CC666E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F06BB1A7-19CB-447C-9A3B-C3361CC666E5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F06BB1A7-19CB-447C-9A3B-C3361CC666E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06BB1A7-19CB-447C-9A3B-C3361CC666E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F06BB1A7-19CB-447C-9A3B-C3361CC666E5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{21F8D831-0A0A-427A-9196-D880E529A10B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F8D831-0A0A-427A-9196-D880E529A10B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F8D831-0A0A-427A-9196-D880E529A10B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{21F8D831-0A0A-427A-9196-D880E529A10B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F8D831-0A0A-427A-9196-D880E529A10B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21F8D831-0A0A-427A-9196-D880E529A10B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07FA9568-2D34-4C6A-8831-68980082950E}
+	EndGlobalSection
+EndGlobal

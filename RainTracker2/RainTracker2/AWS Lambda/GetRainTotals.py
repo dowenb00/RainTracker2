@@ -32,7 +32,7 @@ def lambda_handler(event, context):
     SaveTotals(keys, mycursor)
 
 def SaveTotals(keys, mycursor):
-# Get 24hr rain data from Accuweather for each location key    
+# Get 24hr rain data from Accuweather for each location key, store in database   
     for key in keys:
         apistring = "http://dataservice.accuweather.com/currentconditions/v1/" + key + "?apikey=xxxxxxxxxxxxxxxxxx&details=true"
         response = requests.get(apistring)

@@ -5,7 +5,7 @@ import uuid
 import json
 from datetime import datetime
 
-
+# Triggered daily by AWS CloudWatch
 def lambda_handler(event, context):
     
     global mydb
@@ -32,7 +32,7 @@ def lambda_handler(event, context):
     SaveTotals(keys, mycursor)
 
 def SaveTotals(keys, mycursor):
-    
+# Get 24hr rain data from Accuweather for each location key    
     for key in keys:
         apistring = "http://dataservice.accuweather.com/currentconditions/v1/" + key + "?apikey=xxxxxxxxxxxxxxxxxx&details=true"
         response = requests.get(apistring)

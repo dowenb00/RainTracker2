@@ -11,7 +11,7 @@ using Xamarin.Forms.GoogleMaps;
 
 namespace RainTracker2
 {
-    public class WebHandler
+    public class WebHandler   //Sends package to AWS API Gateway, which forwards to Lambda code (see AWS Lambda folder)
     {
         HttpClient client;
 

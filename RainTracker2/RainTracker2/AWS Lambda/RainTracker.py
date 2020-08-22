@@ -5,6 +5,7 @@ import mysql.connector
 import uuid
 from datetime import datetime
 
+#Triggered by API Gateway
 def lambda_handler(event, context):
   
     dict = json.loads(event['body'])     

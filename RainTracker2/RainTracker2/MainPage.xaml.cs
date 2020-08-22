@@ -90,9 +90,10 @@ namespace RainTracker2
                 }
             }
         }
+
         void ShowTotals(Object sender, EventArgs e)
         {
-
+            //Pending further UI design
         }
     }
 }

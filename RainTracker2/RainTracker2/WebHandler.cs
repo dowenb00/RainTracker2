@@ -11,7 +11,7 @@ using Xamarin.Forms.GoogleMaps;
 
 namespace RainTracker2
 {
-    public class WebHandler   //Sends package to AWS API Gateway, which forwards to Lambda code (see AWS Lambda folder)
+    public class WebHandler   //Sends package to AWS API Gateway, which forwards to Lambda service (see AWS Lambda folder)
     {
         HttpClient client;
 
@@ -21,7 +21,7 @@ namespace RainTracker2
             //URI for AWS API Gateway
             client.BaseAddress = new Uri("https://xxxxxxxx.execute-api.us-east-2.amazonaws.com");
         }
-        public async void AddLocation(Double latitude, double longitude)
+        public async void AddLocation(double latitude, double longitude)
         {
             LambdaPackage lp = new LambdaPackage();
             lp.Function = "addlocation";
